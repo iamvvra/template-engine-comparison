@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title> { title } </title>
+</head>
+
+<body>
+    <div id="content">
+        <h1> { page } </h1>
+        <p> Welcome to my { page } page. My name is { name }.</p>
+    </div>
+    <div id="footer">
+       Copyright [({{year1}})]
+        Copyright ${year1}
+        Copyright { year2 }
+        Copyright { year3 }
+        Copyright {{year4}}
+        Copyright {{ year5 }}
+        Copyright {{ year6 }}
+        Copyright { year7 }
+        Copyright { year8 }
+        Copyright {{year9}}
+    </div>
+</body>
+
+</html>
